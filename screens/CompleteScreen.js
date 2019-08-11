@@ -1,16 +1,11 @@
 import React from 'react';
-import { ScrollView, StyleSheet } from 'react-native';
-import { ExpoLinksView } from '@expo/samples';
+import { StyleSheet, View, Text } from 'react-native';
 
 export default function CompleteScreen() {
   return (
-    <ScrollView style={styles.container}>
-      {/**
-       * Go ahead and delete ExpoLinksView and replace it with your content;
-       * we just wanted to provide you with some helpful links.
-       */}
-      <ExpoLinksView />
-    </ScrollView>
+    <View>
+      <Text>Complete screen</Text>
+    </View>
   );
 }
 
